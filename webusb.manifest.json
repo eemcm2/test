@@ -1,0 +1,11 @@
+{
+  "name": "PS4 SERVER",
+  "version": "Auto Host",
+  "home_assistant_domain": "esphome",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S2",
+      "parts": [{ "path": "flash_contents.bin", "offset": 0 }]
+    }
+  ]
+}
